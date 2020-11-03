@@ -162,8 +162,8 @@ end
 def team_names
   game_hash.each do |location, teams|
     new_array = []
-    teams.each do |team|
-    new_array << team[:team_name]
+    teams.each do |key, value|
+    new_array << teams[:team_name]
     binding.pry
     end
     return new_array
