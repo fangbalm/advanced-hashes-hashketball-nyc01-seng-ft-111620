@@ -164,7 +164,6 @@ def team_names
     new_array = []
     new_array << teams[:team_name]
     binding.pry
-    end
     return new_array
   end
 end
