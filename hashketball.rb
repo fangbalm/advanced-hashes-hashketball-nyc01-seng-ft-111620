@@ -165,6 +165,7 @@ def team_names
     teams.each do |team|
     new_array << team[:team_name]
     binding.pry
+    end
     return new_array
   end
 end
