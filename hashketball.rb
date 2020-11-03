@@ -129,17 +129,17 @@ end
 
 # Write code here
 def num_points_scored(player_name)
+  #iterate through players
+  # lookup values
+  # add values together
   game_hash.each do |location, teams|
     player_info = []
     teams[:players].each do |player|
       if(player[:player_name] == player_name)
         return player[:points]
+      end
+    end
   end
-  #iterate through players
-  # lookup values
-  # add values together
-end
-end
 end
 
   # binding.pry
