@@ -164,10 +164,7 @@ def team_names
   away_team = game_hash[:away][:team_name]
   team_array = [home_team, away_team]
   return team_array
-  # home_team = game_hash[:home][:team_name]
-  # away_team = game_hash[:away][:team_name]
-  # team_array = []
-  # team_array << home_team
-  # team_array << away_team
-  # return team_array
+end
+
+def player_numbers
 end
