@@ -153,6 +153,7 @@ end
 
 def team_colors(team_name)
   game_hash.each do |location, teams|
+    binding.pry
     puts teams[:colors]
     # binding.pry
   end
