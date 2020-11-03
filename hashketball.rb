@@ -185,10 +185,7 @@ def player_stats(player_name)
       if(player == player_name)
         return player
       end
-      binding.pry
+      # binding.pry
     end
-    # if(teams[:player_name] == player_name)
-    #   return teams[:]
-    # end
   end
 end
