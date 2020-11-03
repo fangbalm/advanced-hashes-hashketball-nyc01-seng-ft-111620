@@ -164,4 +164,5 @@ def team_names
   away_team = game_hash[:away][:team_name]
   team_array = []
   team_array << home_team
+  binding.pry
 end
