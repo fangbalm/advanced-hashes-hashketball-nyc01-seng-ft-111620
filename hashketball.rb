@@ -166,5 +166,4 @@ def team_names
   team_array << home_team
   team_array << away_team
   return team_array
-  binding.pry
 end
