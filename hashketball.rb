@@ -174,7 +174,7 @@ def player_numbers(team_name)
         new_array << player[:number]
         # binding.pry
       end
+      return new_array
     end
   end
-  return new_array
 end
