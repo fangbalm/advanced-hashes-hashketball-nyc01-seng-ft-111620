@@ -172,7 +172,7 @@ def player_numbers(team_name)
       new_array = []
       teams[:players].each do |player|
         new_array << player[:number]
-        binding.pry
+        # binding.pry
       end
     end
   end
