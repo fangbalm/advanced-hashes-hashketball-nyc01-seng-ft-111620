@@ -176,4 +176,5 @@ def player_numbers(team_name)
       end
     end
   end
+  return new_array
 end
